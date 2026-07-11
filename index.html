@@ -1,37 +1,52 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body class="hero">
     <header>
-      <nav>
-          <img src="logo.png" alt="">
+      <nav class="navbar">
+        <img src="logo.png" alt="" />
         <ul class="nav">
-           <li><a href="index.html">Accueil</a></li>
-           <li><a href="catalogue.html">Catalogue</a></li>
-           <li><a href="contact.html">contact</a></li>
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="catalogue.html">Catalogue</a></li>
+          <li><a href="contact.html">contact</a></li>
         </ul>
       </nav>
-      <section>
-        <div class="back">
-            <div class="mes">
-              <h1 class="h1">Vos produits artisanaux <br>locaux en ligne</h1>
-              <p class="p">Decrouvrez les catalogue unique pour la mode les<br>accessoires et plus encore, fait à la main par des artisants locaux  </p>
-            <button  class="cata">Voir les catalogues</button>
-            </div>
-            <div class="image6"></div>
-        </div>
-      </section>
-   </header>  
-</body>
 
-    <footer class="too">
-      <p>
-        &copy; Arti-service - Voos preocupation notre priorité - projet Akieni Academy
-      </p>
-    </footer>
+      <!-- Update section -->
+      <section class="hero-content">
+        <div>
+          <h1>Nos produits artisanaux <br />locaux en ligne</h1>
+          <p>
+            Decrouvrez les catalogue unique pour la mode les<br />accessoires et
+            plus encore, fait à la main par des artisants locauxure.
+          </p>
+
+          <span class="cata">
+            <a href="catalogue.html">Voir catalogue</a>
+          </span>
+        </div>
+        <form class="search-box">
+          <label for="destination"></label>
+          <input
+            type="text"
+            name="destination"
+            placeholder="Entrer le nom du produit"
+          />
+          <button type="submit">Rechercher</button>
+        </form>
+      </section>
+    </header>
+  </body>
+
+  <footer class="too">
+    <p>
+      &copy; Arti-service - Voos preocupation notre priorité - projet Akieni
+      Academy
+    </p>
+  </footer>
 </html>

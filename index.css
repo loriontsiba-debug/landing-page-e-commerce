@@ -1,0 +1,77 @@
+header {
+  width: 100%;
+  height: 100px;
+}
+
+.back {
+  width: 100%;
+  height: 500px;
+  background-color: rgb(194, 219, 240);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 5px;
+}
+
+.image6 {
+  width: 30%;
+  height: 400px;
+  background-image: url(image6.png);
+  background-size: cover;
+  border-radius: 10px;
+}
+
+.mes {
+  width: 60%;
+  height: 400px;
+}
+
+.h1 {
+  margin-left: 100px;
+  font-size: 50px;
+  color: blue;
+}
+
+.p {
+  padding-top: 10px;
+  margin-left: 100px;
+  font-size: 25px;
+  color: cornsilk;
+  font-weight: bold;
+}
+
+.p:hover {
+  color: aqua;
+}
+
+.cata {
+  padding: 10px;
+  margin-left: 100px;
+  background-color: rgb(94, 174, 240);
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.too {
+  background-color: #1b3a57;
+  color: #ddd;
+  text-align: center;
+  margin-top: 515px;
+  font-size: 0.85rem;
+  height: 50px;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 768px) {
+  header nav ul {
+    margin-left: 100px;
+    word-spacing: 30px;
+    font-size: 20px;
+  }
+  .h1 {
+    margin-left: 50px;
+    font-size: 30px;
+    color: blue;
+  }
+}
