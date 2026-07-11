@@ -1,0 +1,51 @@
+* {
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  gap: 50px;
+  background-color: #e8f0f3;
+}
+
+nav img {
+  width: 100px;
+  height: 70px;
+  position: relative;
+  right: 200px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  padding: 0;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
+footer {
+  background-color: #1b3a57;
+  color: #ddd;
+  text-align: center;
+  font-size: 0.85rem;
+  height: 50px;
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 50px;
+}
